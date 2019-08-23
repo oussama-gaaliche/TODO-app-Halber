@@ -1,0 +1,47 @@
+
+.header-halber {
+  display: flex;
+  align-items: center;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  div {
+
+    .p3 {
+      font-family: Quicksand;
+      font-weight: 300;
+      font-size: 12px;
+      letter-spacing: -0.01em;
+      text-align: left;
+      color: #9D9C9C;
+      align-items: center;
+padding-left: 1rem;
+    }
+
+
+    .p4 {
+      font-family: Quicksand;
+      font-weight: bold;
+      font-size: 8px;
+      letter-spacing: -0.01em;
+      text-align: left;
+      color: #cecece;
+      display: flex;
+      align-items: center;
+      padding-left: 1rem;
+    }
+  }
+}
+.image-cropper {
+
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+.profile-pic {
+  display: inline;
+  margin: 0 auto;
+  height: 100%;
+  width: auto;
+}
